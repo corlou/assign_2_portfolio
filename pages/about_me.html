@@ -4,32 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
-    <title>My Portfolio</title>
+    <title>About Me</title>
   </head>
   <body>
-    <ul class="home-navigation">
-      <li>
-        <a href="/pages/about_me.html"><h1>About</h1></a>
-      </li>
-      <li>
-        <a href="/pages/blog.html"><h1>Blog</h1></a>
-      </li>
-      <li>
-        <a href="/pages/education.html"><h1>Education</h1></a>
-      </li>
-      <li>
-        <a href="/pages/work.html"><h1>Work</h1></a>
-      </li>
-    </ul>
+    <header class="nav-top">
+      <nav>
+        <ul>
+          <li>
+            <a href="/pages/index.html"
+              ><img
+                class="icons"
+                src="/images/icons/home_icon.png"
+                alt="home icon"
+              />
+            </a>
+          </li>
+          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/education.html">Education</a></li>
+          <li><a href="/pages/work.html">Work</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>About Me</h1>
     <br />
-    <div class="home-container">
-      <img src="./images/profile.png" class="img" />
-      <h2>Corina Pelichowski</h2>
-      <h2>Combining form and function in creative ways</h2>
+    <div class="flex-container">
+      <div class="about-me-container">
+        <img
+          class="about-me-img"
+          src="/images/about_me/about_pole_text.png"
+          alt="pole_fitness"
+        />
+      </div>
+      <div class="about-me-container">
+        <img
+          src="/images/about_me/about_lyra_text.png"
+          class="about-me-img"
+          alt="lyra/aerial hoop"
+        />
+      </div>
+      <div class="about-me-container">
+        <img
+          src="/images/about_me/about_knitting_text.png"
+          class="about-me-img"
+          alt="two hands knitting"
+        />
+      </div>
     </div>
-
+    <div class="flex-container">
+      <div class="about-me-container">
+        <img
+          src="/images/about_me/about_polish_text.png"
+          class="about-me-img"
+          alt="learning a second language"
+        />
+      </div>
+      <div class="about-me-container">
+        <img
+          src="/images/about_me/about_mentor_text.png"
+          class="about-me-img"
+          alt="mentoring other software engineers"
+        />
+      </div>
+      <div class="about-me-container">
+        <img
+          src="/images/about_me/about_programming_text.png"
+          class="about-me-img"
+          alt="two hands programming"
+        />
+      </div>
+    </div>
     <footer>
       <div class="footer-socials">
         <ul>

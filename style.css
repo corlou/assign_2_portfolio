@@ -7,11 +7,23 @@ body {
 h1 {
   color: #1E441F;
   text-align: center;
+  font-weight: normal;
+}
+h2 {
+  color: #1E441F;
+  font-weight: normal;
 }
 
 .img {
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #fb1;
 }
 
 .flex-container {
@@ -21,6 +33,12 @@ h1 {
   padding: 10px;
   margin: 0;
   list-style: none;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .about-me-container {
   height: 400px;
@@ -45,13 +63,8 @@ header {
   margin-top: -1em;
 }
 header a {
-  text-decoration: none;
   color: white;
   font-size: 1.5rem;
-}
-
-header a:hover {
-  color: #fb1;
 }
 
 ul {
@@ -93,9 +106,20 @@ footer {
   padding-left: 35px;
 }
 
+.home-navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.home-navigation a {
+  color: #1E441F;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   .about-me-img {
     height: 800px;
-    width: 370px
+    width: 360px
   }
 }
