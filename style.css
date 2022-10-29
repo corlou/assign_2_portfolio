@@ -18,6 +18,11 @@ h2 {
   color: #1E441F;
   font-weight: normal;
 }
+h3 {
+  color: #1E441F;
+  font-weight: normal;
+  text-align: center;
+}
 
 .sub-heading {
   font-style: italic;
@@ -116,6 +121,26 @@ li a {
 .about-me-img {
   height: 800px;
   width: 400px
+}
+.projects-img {
+  height: 300px;
+  width: 350px;
+}
+
+.project-button {
+    border-color: #1E441F;
+    color: #1E441F;
+    background-color: #E9ECE9;
+    padding: 12px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    margin-left: 6em;
+}
+.project-button:hover {
+  background-color: #fb1;
 }
 
 footer {
