@@ -58,6 +58,13 @@ a:hover {
   text-align: center;
   margin-bottom: 3%;
 }
+.project-container {
+  overflow-wrap: break-word;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 3%;
+}
 .work-container {
   text-align: center;
   overflow-wrap: break-word;
@@ -142,10 +149,6 @@ li a {
 .project-button:hover {
   background-color: #fb1;
 }
-.project-button:visited {
-  background-color: #1E441F;
-  color: white;
-}
 
 footer {
   background-color: #E9ECE9;
@@ -178,6 +181,13 @@ footer {
 padding: 1em;
 }
 
+.project-card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
 @media only screen and (max-width: 600px) {
   .about-me-img {
     height: 800px;
