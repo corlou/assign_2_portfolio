@@ -50,7 +50,6 @@ a:hover {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 1%;
-  margin: 0;
   list-style: none;
 }
 
@@ -59,12 +58,57 @@ a:hover {
   margin-bottom: 3%;
 }
 .project-container {
-  overflow-wrap: break-word;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+  margin-left: 20%;
+  margin-right: 20%;
   margin-bottom: 3%;
 }
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 30%;
+  padding: 0.5rem;
+  height: 300px;
+}
+
+.card-img {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-img-litepages {
+  background-image: url(/images/projects/1_lp.png);
+}
+
+.card-img-bidbarn {
+  background-image: url(/images/projects/2_bbn.png);
+}
+
+.card-img-stayupright {
+  background-image: url(/images/projects/3_su.png);
+}
+
+.card-img-poleguide {
+  background-image: url(/images/projects/5_pg.png);
+}
+
+.card-img-twosheds {
+  background-image: url(/images/projects/6_ts.png);
+}
+
+.card-img-lush {
+  background-image: url(/images/projects/9_lush.png);
+}
+
 .work-container {
   text-align: center;
   overflow-wrap: break-word;
@@ -130,21 +174,20 @@ li a {
   width: 400px
 }
 .projects-img {
-  height: 300px;
-  width: 250px;
+  height: 200px;
+  width: auto;
 }
 
 .project-button {
     border-color: #1E441F;
     color: #1E441F;
     background-color: #E9ECE9;
-    padding: 12px 30px;
+    padding: 6px 30px;
     text-align: center;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin-top: 1em;
     border-radius: 10px;
-    margin-left: 2em;
 }
 .project-button:hover {
   background-color: #fb1;
@@ -177,11 +220,7 @@ footer {
   color: #1E441F;
 }
 
-.card {
-padding: 1em;
-}
-
-.project-card{
+.project-card {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
