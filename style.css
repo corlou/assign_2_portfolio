@@ -29,8 +29,8 @@ h3 {
   font-size: 1.2em;
 }
 .img {
-  width: 400px;
-  height: 400px;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-divider {
@@ -170,12 +170,8 @@ li a {
 }
 
 .about-me-img {
-  height: 800px;
-  width: 400px
-}
-.projects-img {
-  height: 200px;
-  width: auto;
+  max-width: 100%;
+  height: auto;
 }
 
 .project-button {
@@ -187,6 +183,7 @@ li a {
     display: inline-block;
     font-size: 16px;
     margin-top: 1em;
+    margin-bottom: 1em;
     border-radius: 10px;
 }
 .project-button:hover {
@@ -226,10 +223,4 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   
-}
-@media only screen and (max-width: 600px) {
-  .about-me-img {
-    height: 800px;
-    width: 360px
-  }
 }

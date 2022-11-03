@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="/style.css" />
+      <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
+      <title>Blog</title>
+    </head>
+    <style>
+      .all-browsers {
+        margin: 0;
+        padding: 5px;
+      }
+
+      .all-browsers > h1,
+      .browser {
+        margin: 10px;
+        padding: 5px;
+      }
+
+      .browser {
+        background: white;
+      }
+
+      .browser > h2,
+      p {
+        margin: 4px;
+        font-size: 90%;
+      }
+      .text-center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        font-size: 34px;
+      }
+      .bannerimage {
+        width: 100%;
+        background-image: url(/images/blog/feature_1.jpg);
+        height: 300px;
+        background-position: center;
+        opacity: 0.75;
+      }
+      .feature-heading {
+        color: #1e441f;
+        font-size: 2em;
+        text-align: center;
+        padding-top: 4em;
+      }
+    </style>
+  </head>
+  <header class="nav-top">
+    <nav>
+      <ul>
+        <li>
+          <a href="/index.html"
+            ><img
+              class="icons"
+              src="/images/icons/home_icon.png"
+              alt="home icon"
+            />
+          </a>
+        </li>
+        <li><a href="/pages/about_me.html">About</a></li>
+        <li><a href="/pages/education.html">Education</a></li>
+        <li><a href="/pages/projects.html">Projects</a></li>
+        <li><a href="/pages/work.html">Work</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <article class="all-browsers">
+      <div class="bannerimage">
+        <p class="feature-heading">
+          Feature Article: Working and Studying full time - Can it be done?
+        </p>
+      </div>
+
+      <article class="browser">
+        <p>
+          Google Chrome is a web browser developed by Google, released in 2008.
+          Chrome is the world's most popular web browser today!
+        </p>
+      </article>
+      <article class="browser">
+        <h2>Mozilla Firefox</h2>
+        <p>
+          Mozilla Firefox is an open-source web browser developed by Mozilla.
+          Firefox has been the second most popular web browser since January,
+          2018.
+        </p>
+      </article>
+      <article class="browser">
+        <h2>Microsoft Edge</h2>
+        <p>
+          Microsoft Edge is a web browser developed by Microsoft, released in
+          2015. Microsoft Edge replaced Internet Explorer.
+        </p>
+      </article>
+    </article>
+  </body>
+</html>
