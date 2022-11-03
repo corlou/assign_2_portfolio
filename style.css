@@ -58,8 +58,8 @@ a:hover {
   margin-bottom: 3%;
 }
 .project-container {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   margin-bottom: 3%;
 }
 
@@ -216,5 +216,5 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
