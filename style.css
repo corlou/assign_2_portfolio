@@ -40,6 +40,7 @@ h3 {
 
 a {
   text-decoration: none;
+  color: black;
 }
 a:hover {
   color: #fb1;
@@ -78,11 +79,7 @@ a:hover {
   height: 300px;
 }
 
-.banner_img {
-  
-  max-width: 100%;
-  height: auto;
-}
+
 .card-img {
   height: 200px;
   background-size: contain;
@@ -128,6 +125,7 @@ a:hover {
   align-items: center;
   flex: 1;
 }
+
 .about-me-container {
   height: 390px;
   width: 400px;
