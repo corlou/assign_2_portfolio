@@ -4,15 +4,138 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/pages/blog/blog.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
-    <title>Blog</title>
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
+          "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+      li {
+        list-style: none;
+      }
+
+      .blog-button {
+        border-color: #1e441f;
+        color: #1e441f;
+        background-color: #e9ece9;
+        text-align: center;
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 0.5rem 1rem;
+        margin: 0.5rem;
+      }
+
+      .blog-button:hover {
+        background-color: #fb1;
+      }
+      a {
+        text-decoration: none;
+      }
+      .date-published {
+        font-size: 0.7em;
+      }
+
+      /* Styles for the hero image */
+      .hero {
+        background: url(/images/blog/feature.png);
+        background-size: cover;
+        padding: 4rem 2rem;
+        /* grid styles */
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        align-items: center;
+      }
+
+      .hero > * {
+        color: white;
+      }
+
+      .hero > h1 {
+        font-size: 4rem;
+        padding-bottom: 1rem;
+        font-weight: normal;
+      }
+
+      .hero > article > p {
+        font-size: 1.5rem;
+        font-weight: 200;
+      }
+
+      /* blog styles */
+      .blog {
+        padding: 2rem;
+      }
+
+      .blog > ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-gap: 1rem;
+      }
+
+      .blog > ul > li {
+        border: 1px solid #e2e2e2;
+      }
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .blog > ul > li > p {
+        padding: 1rem 0.75rem;
+        color: #666666;
+      }
+
+      /* footer */
+      footer {
+        background-color: #e9ece9;
+        width: 100%;
+        padding: 0.75rem;
+        color: white;
+        text-align: center;
+        font-size: 0.75rem;
+      }
+      .copy-right {
+        font-size: 1em;
+        color: #1e441f;
+        text-align: center;
+        padding-left: 35px;
+      }
+      .social-button {
+        border: none;
+        margin: 0.2em;
+        cursor: pointer;
+        background-color: #e9ece9;
+      }
+      .footer-socials {
+        display: flex;
+        justify-content: center;
+      }
+      .icons {
+        max-height: 30px;
+        max-width: 30px;
+      }
+      header {
+        background-color: #1e441f;
+        margin-top: -1em;
+      }
+
+      header a {
+        font-size: 1.5em;
+      }
+      .nav-button {
+        color: red;
+        background-color: none;
+        border: none;
+
+        padding: 0.5em;
+      }
+    </style>
   </head>
-  <header class="nav-top">
-    <nav>
-      <ul>
-        <li>
+  <body>
+    <header>
+      <nav>
+        <button type="button" class="nav-button">
           <a href="/index.html"
             ><img
               class="icons"
@@ -20,105 +143,149 @@
               alt="home icon"
             />
           </a>
-        </li>
-        <li><a href="/pages/about_me.html">About</a></li>
-        <li><a href="/pages/education.html">Education</a></li>
-        <li><a href="/pages/projects.html">Projects</a></li>
-        <li><a href="/pages/work.html">Work</a></li>
-      </ul>
-    </nav>
-  </header>
-  <body>
-    <h1>Blog</h1>
-    <br />
-    <div class="blog-home-container">
-      <div class="blog-links">
-        <a href="/pages/project_pages/lite_pages.html">
-          <button class="blog-button">Recent</button>
-        </a>
-        <a href="/pages/project_pages/lite_pages.html">
-          <button class="blog-button">Gaming</button>
-        </a>
-        <a href="/pages/project_pages/lite_pages.html">
-          <button class="blog-button">Product Reviews</button>
-        </a>
-        <a href="/pages/project_pages/lite_pages.html">
-          <button class="blog-button">Tech</button>
-        </a>
-        <a href="/pages/project_pages/lite_pages.html">
-          <button class="blog-button">Travel</button>
-        </a>
-      </div>
-    </div>
+        </button>
 
-    <article class="blog-body">
-      <div class="blog-home-container">
-        <!--Startup vs Corporate-->
-        <div class="blog-card">
-          <div class="card__header">
-            <img
-              src="/images/blog/start-corp.png"
-              alt="card__image"
-              class="blog-img"
-              width="600"
-            />
-          </div>
-          <div class="card__body">
-            <h4>Startup vs. Corporate</h4>
+        <button type="button" class="nav-button">
+          <a href="/pages/blog/blog_home.html">Blog</a>
+        </button>
+        <button type="button" class="nav-button">
+          <a href="/pages/education.html">Education</a>
+        </button>
+        <button type="button" class="nav-button">
+          <a href="/pages/projects.html">Projects</a>
+        </button>
+        <button type="button" class="nav-button">
+          <a href="/pages/work.html">Work</a>
+        </button>
+      </nav>
+    </header>
+    <main class="wrapper">
+      <section class="hero">
+        <h2>Full time Work and Study: Can it be done?</h2>
+        <article>
+          <p>
+            With the ever-changing landscape of work and rising costs of living,
+            we explore what it takes to work and study full time so that one
+            might change careers into something more fullfilling, more
+            rewarding, and yes, more pay.
+          </p>
+          <a href="/pages/blog/blog_feature_article.html"
+            ><button class="blog-button">Find out more</button></a
+          >
+        </article>
+      </section>
+      <section class="blog" id="blog">
+        <ul>
+          <!--Startup v.s Corporate-->
+          <li>
+            <figure>
+              <!-- Photo by Rohan Makhecha on Unsplash -->
+              <h3 style="text-align: center">Startup vs. Corporate</h3>
+              <img
+                src="/images/blog/start-corp.png"
+                alt="Single hand holding a lightbulb"
+              />
+            </figure>
             <p>
               As you begin your software journey, the inevitable question comes
               up: do I go corporate or startup? Here are the pros and cons of
               both.
             </p>
-            <p>Published: 14/02/2022</p>
-          </div>
-        </div>
-        <!--/Startup vs Corporate-->
-        <!--Gaming-->
-        <div class="blog-card">
-          <div class="card__header">
-            <img
-              src="/images/blog/gaming.jpg"
-              alt="card__image"
-              class="blog-img"
-              width="600"
-            />
-          </div>
-          <div class="card__body">
-            <h4>What's new in gaming?</h4>
+            <a href="#"><button class="blog-button">Read more</button></a>
+            <p class="date-published">Published 29/01/2022</p>
+          </li>
+          <!--/Startup v.s Corporate-->
+          <!--Gaming-->
+          <li>
+            <figure>
+              <!-- Photo by Minh Pham on Unsplash -->
+              <h3 style="text-align: center">What's new in Gaming?</h3>
+              <img
+                src="/images/blog/gaming.png"
+                alt="Male wearing a virtual reality headset holding controllers"
+              />
+            </figure>
             <p>
               In this post we'll check out the latest tech in gaming and test
               the very best and latest releases. So strap in as we deep dive
               into VR Gaming and how it's changing how we play.
             </p>
-            <p>Published: 10/10/2022</p>
-          </div>
-        </div>
-        <!--/Gaming-->
-        <!--SunBum-->
-        <a href="/pages/blog/blog_review.html">
-          <div class="blog-card">
-            <div class="card__header">
+            <a href="#"><button class="blog-button">Read more</button></a>
+            <p class="date-published">Published 15/09/2022</p>
+          </li>
+          <!--/Gaming-->
+          <!--Product Review-->
+          <li>
+            <figure>
+              <!-- Photo by Rohan Makhecha on Unsplash -->
+              <h3 style="text-align: center">Product Review: Sun Bum</h3>
               <img
-                src="/images/blog/sun_bum.png"
-                alt="sunbum logo"
-                class="blog-img"
-                width="600"
+                src="/images/blog/sun_bum.jpg"
+                alt="Single hand holding a lightbulb"
               />
-            </div>
-            <div class="card__body">
-              <h4>Product Review: SunBum</h4>
-              <p>
-                For those of us who do go outside, we checked out and tested
-                these products and give our verdict. This month's product:
-                SunBum.
-              </p>
-              <p>Published: 10/10/2022</p>
-            </div>
-          </div>
+            </figure>
+            <p>
+              For those of us who do go outside, I checked out and tested these
+              products and give my verdict. This month's product: Sun Bum.
+            </p>
+            <a href="#"><button class="blog-button">Read more</button></a>
+            <p class="date-published">Published 29/01/2020</p>
+          </li>
+          <!--/Product Review-->
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-socials">
+        <!--Facebook-->
+        <a href="https://www.facebook.com/corina.louise.351/" target="_blank">
+          <button class="social-button">
+            <img
+              class="icons"
+              src="/images/icons/facebook.png"
+              alt="facebook logo as icon"
+            />
+          </button>
         </a>
-        <!--/SunBum-->
+        <!--/Facebook-->
+        <!--Instagram-->
+        <a href="https://www.instagram.com/corlou33/" target="_blank">
+          <button class="social-button">
+            <img
+              class="icons"
+              src="/images/icons/instagram.png"
+              alt="instagram logo as icon"
+            />
+          </button>
+        </a>
+        <!--/Instagram-->
+        <!--Twitter-->
+        <a href="https://twitter.com/CorinaPelich" target="_blank">
+          <button class="social-button">
+            <img
+              class="icons"
+              src="/images/icons/twitter.png"
+              alt="twitter logo as icon"
+            />
+          </button>
+        </a>
+        <!--/Twitter-->
+        <!--LinkedIn-->
+        <a
+          href="https://www.linkedin.com/in/corina-pelichowski-794889142/"
+          target="_blank"
+        >
+          <button class="social-button">
+            <img
+              class="icons"
+              src="/images/icons/linkedin.png"
+              alt="LinkedIn logo as icon"
+            />
+          </button>
+        </a>
+        <!--/LinkedIn-->
       </div>
-    </article>
+      <div class="copy-right">&copy; Corina Pelichowski 2022</div>
+    </footer>
   </body>
 </html>
