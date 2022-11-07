@@ -188,22 +188,34 @@ li a {
   background-color: #fb1;
 }
 
+/* footer */
 footer {
-  background-color: #E9ECE9;
-  min-height: 60px;
+  background-color: #e9ece9;
   width: 100%;
-}
-
-.footer-socials {
-  display: flex;
-  justify-content: center;
-  margin-top: -1em;
+  padding: 0.75rem;
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
 }
 .copy-right {
   font-size: 1em;
-  color: #1E441F;
+  color: #1e441f;
   text-align: center;
-  padding-left: 35px;
+  padding-left: 20px;
+}
+.social-button {
+  border: none;
+  margin: 0.2em;
+  cursor: pointer;
+  background-color: #e9ece9;
+}
+.footer-socials {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  max-height: 30px;
+  max-width: 30px;
 }
 
 .home-navigation {
