@@ -13,6 +13,21 @@
       li {
         list-style: none;
       }
+      header {
+        color: #e9ece9;
+        padding: 15px;
+      }
+      .top-nav li {
+        list-style-type: none;
+        font-size: 20px;
+        border: none;
+      }
+
+      .top-nav ul {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1em;
+      }
 
       .blog-button {
         border-color: #1e441f;
@@ -123,40 +138,26 @@
       header a {
         font-size: 1.5em;
       }
-      .nav-button {
-        color: red;
-        background-color: none;
-        border: none;
-
-        padding: 0.5em;
-      }
     </style>
   </head>
   <body>
-    <header>
+    <header class="top-nav">
       <nav>
-        <button type="button" class="nav-button">
-          <a href="/index.html"
-            ><img
-              class="icons"
-              src="/images/icons/home_icon.png"
-              alt="home icon"
-            />
-          </a>
-        </button>
-
-        <button type="button" class="nav-button">
-          <a href="/pages/blog/blog_home.html">Blog</a>
-        </button>
-        <button type="button" class="nav-button">
-          <a href="/pages/education.html">Education</a>
-        </button>
-        <button type="button" class="nav-button">
-          <a href="/pages/projects.html">Projects</a>
-        </button>
-        <button type="button" class="nav-button">
-          <a href="/pages/work.html">Work</a>
-        </button>
+        <ul>
+          <li>
+            <a href="/index.html"
+              ><img
+                class="icons"
+                src="/images/icons/home_icon.png"
+                alt="home icon"
+              />
+            </a>
+          </li>
+          <li><a href="/pages/blog/blog_home.html">Blog</a></li>
+          <li><a href="/pages/education.html">Education</a></li>
+          <li><a href="/pages/projects.html">Projects</a></li>
+          <li><a href="/pages/work.html">Work</a></li>
+        </ul>
       </nav>
     </header>
     <main class="wrapper">
