@@ -4,129 +4,51 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/hamburger.css" />
+    <link rel="stylesheet" href="/navigation.css" />
     <link rel="stylesheet" href="/pages/blog/blog.css" />
-    <link rel="stylesheet" href="/style.css" />
-    <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
-    <title>Product Review</title>
-    <style>
-      aside {
-        width: 50%;
-        background-color: #fff9b8;
-      }
-    </style>
+
+    <title>Blog - Review</title>
   </head>
-  <body>
-    <header class="nav-top">
-      <nav>
+  <!-- Mobile Hamburger Menu-->
+  <header class="head-mobile">
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
         <ul>
-          <li>
-            <a href="/index.html"
-              ><img
-                class="icons"
-                src="/images/icons/home_icon.png"
-                alt="home icon"
-              />
-            </a>
-          </li>
           <li><a href="/pages/about_me.html">About</a></li>
-          <li><a href="/pages/blog.html">Blog</a></li>
+          <li><a href="/pages/blog_home.html">Blog</a></li>
           <li><a href="/pages/education.html">Education</a></li>
           <li><a href="/pages/projects.html">Projects</a></li>
           <li><a href="/pages/work.html">Work</a></li>
         </ul>
       </nav>
-    </header>
-    <h1>Product Review: SunBum</h1>
-    <div class="blog-content-container">
-      <p style="color: #4e3626; font-style: italic">
-        What does that mean? It means trust us, the ones who live on the beach
-        and need products that work on even the most intense days in the sun.
-        The simple truth is, when you make products to protect the ones you
-        love, you make ‘em better - Sun Bum.
-      </p>
-
-      <aside>
-        <img
-          class="img"
-          src="/images/blog/sun_bum.png"
-          alt="Text and logo of SunBum"
-        />
-      </aside>
-      <p>
-        Summer is coming so it's time to test out some products to keep
-        ourselves safe while still having a great time. First of all, great
-        name. It's short, catchy, and dare I say... cheeky?
-      </p>
-      <a href="https://sunbum-aus.com/" target="_blank"
-        ><button class="product-button">
-          Get your Sun Bum Products here
-        </button></a
-      >
-      <p>
-        These vegan, cruelty-free, reef friendly, products are made with
-        environmentally-conscious ingredients and smell incredible. Their use of
-        banana pulp and peel demonstrates that they minimise wastage of
-        ingredients which I love.
-      </p>
-      <p style="color: #1e4420; font-size: 20px">
-        My verdict: Looks good, smells great, environmentally friendly, and
-        protects from the sun. 10/10
-      </p>
     </div>
-
-    <footer>
-      <div class="footer-socials">
-        <ul>
-          <!--Facebook-->
-          <li>
-            <a
-              href="https://www.facebook.com/corina.louise.351/"
-              target="_blank"
-            >
-              <img
-                class="icons"
-                src="/images/icons/facebook.png"
-                alt="facebook logo as icon"
-              />
-            </a>
-          </li>
-          <!--/Facebook-->
-          <!--Instagram-->
-          <li>
-            <a href="https://www.instagram.com/corlou33/" target="_blank">
-              <img
-                class="icons"
-                src="/images/icons/instagram.png"
-                alt="instagram logo as icon"
-              />
-            </a>
-          </li>
-          <!--/Instagram-->
-          <!--Twitter-->
-          <li>
-            <a href="https://twitter.com/CorinaPelich" target="_blank">
-              <img
-                class="icons"
-                src="/images/icons/twitter.png"
-                alt="twitter logo as icon"
-              />
-            </a>
-          </li>
-          <!--/Twitter-->
-          <!--Pinterest-->
-          <li>
-            <a href="https://pin.it/dgB1zlJ" target="_blank">
-              <img
-                class="icons"
-                src="/images/icons/pinterest.png"
-                alt="pinterest logo as icon"
-              />
-            </a>
-          </li>
-          <!--/Pinterest-->
-        </ul>
-      </div>
-      <div class="copy-right">&copy; Corina Pelichowski 2022</div>
-    </footer>
+  </header>
+  <!-- /Mobile Hamburger Menu-->
+  <!-- Main Navigation Menu-->
+  <div class="menu-bg" id="menu-bg"></div>
+  <ul class="topnav">
+    <li>
+      <a href="/index.html"
+        ><img class="icons" src="/images/icons/home_icon.png" alt="home icon" />
+      </a>
+    </li>
+    <li><a href="/pages/about_me.html">About</a></li>
+    <li><a href="/pages/blog_home.html">Blog</a></li>
+    <li><a href="/pages/education.html">Education</a></li>
+    <li><a href="/pages/work.html">Work</a></li>
+  </ul>
+  <!-- /Main Navigation Menu-->
+  <body>
+    <div class="grid">
+      <main>Blog Post</main>
+      <aside class="side-links">Sidebar</aside>
+      <footer>Footer</footer>
+    </div>
   </body>
 </html>
