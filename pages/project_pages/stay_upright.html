@@ -5,30 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/hamburger.css" />
+    <link rel="stylesheet" href="/navigation.css" />
     <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
     <title>Stay Upright</title>
   </head>
   <body>
-    <header class="nav-top">
-      <nav>
-        <ul>
-          <li>
-            <a href="/index.html"
-              ><img
-                class="icons"
-                src="/images/icons/home_icon.png"
-                alt="home icon"
-              />
-            </a>
-          </li>
-          <li><a href="/pages/about_me.html">About</a></li>
-          <li><a href="/pages/blog.html">Blog</a></li>
-          <li><a href="/pages/education.html">Education</a></li>
-          <li><a href="/pages/projects.html">Projects</a></li>
-          <li><a href="/pages/work.html">Work</a></li>
-        </ul>
-      </nav>
+    <!-- Mobile Hamburger Menu-->
+    <header class="head-mobile">
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="/pages/about_me.html">About</a></li>
+            <li><a href="/pages/blog_home.html">Blog</a></li>
+            <li><a href="/pages/education.html">Education</a></li>
+            <li><a href="/pages/projects.html">Projects</a></li>
+            <li><a href="/pages/work.html">Work</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <!-- /Mobile Hamburger Menu-->
+    <!-- Main Navigation Menu-->
+    <div class="menu-bg" id="menu-bg"></div>
+    <ul class="topnav">
+      <li>
+        <a href="/index.html"
+          ><img
+            class="icons"
+            src="/images/icons/home_icon.png"
+            alt="home icon"
+          />
+        </a>
+      </li>
+      <li><a href="/pages/about_me.html">About</a></li>
+      <li><a href="/pages/blog_home.html">Blog</a></li>
+      <li><a href="/pages/education.html">Education</a></li>
+      <li><a href="/pages/work.html">Work</a></li>
+    </ul>
+    <!-- /Main Navigation Menu-->
     <div class="project-container">
       <h1>Stay Upright - Staff Portal</h1>
       <h3>Tools Used: Sketch</h3>
@@ -124,4 +144,5 @@
       <div class="copy-right">&copy; Corina Pelichowski 2022</div>
     </footer>
   </body>
+  <script type="text/javascript" src="/hamburger.js"></script>
 </html>
