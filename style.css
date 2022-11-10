@@ -24,6 +24,11 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  color: #1E441F;
+  font-weight: normal;
+}
+
 .sub-heading {
   font-style: italic;
   font-size: 1.2em;

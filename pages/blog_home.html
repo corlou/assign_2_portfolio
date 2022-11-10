@@ -6,128 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/hamburger.css" />
     <link rel="stylesheet" href="/navigation.css" />
+    <link rel="stylesheet" href="/pages/blog/blog.css" />
+    <link rel="stylesheet" href="/style.css" />
     <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
     <title>Blog Home</title>
-    <style>
-      body {
-        font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L",
-          "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
-      li {
-        list-style: none;
-      }
-
-      .blog-button {
-        border-color: #1e441f;
-        color: #1e441f;
-        background-color: #e9ece9;
-        text-align: center;
-        font-size: 16px;
-        border-radius: 10px;
-        padding: 0.5rem 1rem;
-        margin: 0.5rem;
-      }
-
-      .blog-button:hover {
-        background-color: #fb1;
-      }
-      a {
-        text-decoration: none;
-      }
-      .date-published {
-        font-size: 0.7em;
-      }
-
-      /* Styles for the hero image */
-      .hero {
-        background: url(/images/blog/feature.png);
-        background-size: cover;
-        padding: 4rem 2rem;
-        /* grid styles */
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-        align-items: center;
-      }
-
-      .hero > * {
-        color: white;
-      }
-
-      .hero > h1 {
-        font-size: 4rem;
-        padding-bottom: 1rem;
-        font-weight: normal;
-      }
-
-      .hero > article > p {
-        font-size: 1.5rem;
-        font-weight: 200;
-      }
-
-      /* blog styles */
-      .blog {
-        padding: 2rem;
-      }
-
-      .blog > ul {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-        grid-gap: 1rem;
-        margin-left: -3em;
-      }
-
-      .blog > ul > li {
-        border: 1px solid #e2e2e2;
-      }
-
-      img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      .blog > ul > li > p {
-        padding: 1rem 0.75rem;
-        color: #666666;
-      }
-
-      /* footer */
-      footer {
-        background-color: #e9ece9;
-        width: 100%;
-        padding: 0.75rem;
-        color: white;
-        text-align: center;
-        font-size: 0.75rem;
-      }
-      .copy-right {
-        font-size: 1em;
-        color: #1e441f;
-        text-align: center;
-        padding-left: 35px;
-      }
-      .social-button {
-        border: none;
-        margin: 0.2em;
-        cursor: pointer;
-        background-color: #e9ece9;
-      }
-      .footer-socials {
-        display: flex;
-        justify-content: center;
-      }
-      .icons {
-        max-height: 30px;
-        max-width: 30px;
-      }
-      header {
-        background-color: #1e441f;
-        margin-top: -1em;
-      }
-
-      header a {
-        font-size: 1.5em;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
     <!-- Mobile Hamburger Menu-->
@@ -167,7 +50,7 @@
       <li><a href="/pages/work.html">Work</a></li>
     </ul>
     <!-- /Main Navigation Menu-->
-    <main class="wrapper">
+    <main>
       <section class="hero">
         <h2>Full time Work and Study: Can it be done?</h2>
         <article>
@@ -190,6 +73,7 @@
               <!-- Photo by Rohan Makhecha on Unsplash -->
               <h3 style="text-align: center">Startup vs. Corporate</h3>
               <img
+                class="img"
                 src="/images/blog/start-corp.png"
                 alt="Single hand holding a lightbulb"
               />
@@ -199,35 +83,43 @@
               up: do I go corporate or startup? Here are the pros and cons of
               both.
             </p>
-            <a href="#"><button class="blog-button">Read more</button></a>
+            <a href="/pages/blog/startup_corp.html"
+              ><button class="blog-button">Read more</button></a
+            >
             <p class="date-published">Published 29/01/2022</p>
           </li>
           <!--/Startup v.s Corporate-->
-          <!--Gaming-->
+          <!--What's new in coding-->
           <li>
             <figure>
               <!-- Photo by Minh Pham on Unsplash -->
-              <h3 style="text-align: center">What's new in Gaming?</h3>
+              <h3 style="text-align: center">
+                Coding in VR: Work from Home to Work from Anywhere
+              </h3>
               <img
+                class="img"
                 src="/images/blog/gaming.png"
                 alt="Male wearing a virtual reality headset holding controllers"
               />
             </figure>
             <p>
-              In this post we'll check out the latest tech in gaming and test
-              the very best and latest releases. So strap in as we deep dive
-              into VR Gaming and how it's changing how we play.
+              In this post I'll explore what it's like to do programming work in
+              virtual reality. That's right, my laptop and second screen are now
+              virtual.
             </p>
-            <a href="#"><button class="blog-button">Read more</button></a>
+            <a href="/pages/blog/blog_vr.html"
+              ><button class="blog-button">Read more</button></a
+            >
             <p class="date-published">Published 15/09/2022</p>
           </li>
-          <!--/Gaming-->
+          <!--/What's new in coding-->
           <!--Product Review-->
           <li>
             <figure>
               <!-- Photo by Rohan Makhecha on Unsplash -->
               <h3 style="text-align: center">Product Review: Sun Bum</h3>
               <img
+                class="img"
                 src="/images/blog/sun_bum.jpg"
                 alt="Single hand holding a lightbulb"
               />

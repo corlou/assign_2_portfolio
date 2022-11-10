@@ -1,23 +1,138 @@
-.grid {
-  display: grid;
-  grid-template-columns: 75% 25%;
-  grid-template-rows: 50px 200px 100px;
-  grid-gap: 1em;
+/*Blog review page*/
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  text-align: center; 
+}
+
+.wrapper > * {
+  margin: 0.5em;
+  padding: 1em;
+  flex: 1 100%;
+}
+
+.aside-2 ul li a {
+  display: block;
+  color: #1E441F;
+  text-align: center;
+  padding: 0.5em 2em 0em 0em;
+  text-decoration: none;
+  font-size: 16px;
+}
+.aside-2 ul li a:hover {
+  color: #fb1;
+}
+
+.aside-2-card {
+  background-color: #e9ece9;
+  padding: 1em;
+}
+
+.main {
+  text-align: left;
+}
+
+.main p {
+  margin-top: -0.1em;
+}
+
+.aside-1 {
+  background: none;
+}
+
+.aside-2 {
+  background: none;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+@media all and (min-width: 200px) {
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+/*blog review page end*/
+
+
+.blog-button {
+    border-color: #1e441f;
+    color: #1e441f;
+    background-color: #e9ece9;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+}
+
+  .blog-button:hover {
+    background-color: #fb1;
+  }
+
+  .date-published {
+    font-size: 0.7em;
+  }
+
+  /* Styles for the hero image */
+  .hero {
+    background: url(/images/blog/feature.png);
+    background-size: cover;
+    padding: 4rem 2rem;
+    /* grid styles */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    align-items: center;
+  }
+
+  .hero > * {
+    color: white;
+  }
+
+  .hero > h1 {
+    font-size: 4rem;
+    padding-bottom: 1rem;
+    font-weight: normal;
+  }
+
+  .hero > article > p {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  /* blog styles */
+  .blog {
+    padding: 2rem;
+  }
+
+  .blog > ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-left: -3em;
+  }
+
+  .blog > ul > li {
+    border: 1px solid #e2e2e2;
+  }
+  .blog > ul > li > p {
+    padding: 1rem 0.75rem;
+    color: #666666;
+  }
+  ul {
+    list-style-type: none;
   }
   
-  header,
-  footer {
-  grid-column-start: 1;
-  grid-column-end: 3;
-  }
-  
-  .grid > * {
-  background: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  }
 
   @media only screen and (max-width: 900px) {
     .side-links {
