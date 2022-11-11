@@ -138,6 +138,16 @@
     font-size: 18px;
     text-decoration: underline;
   }
+
+  .img-mobile {
+    display: none;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .img-desktop {
+    display: block;
+  }
   
 
   @media only screen and (max-width: 900px) {
@@ -147,5 +157,18 @@
     .grid {
       display: grid;
       grid-template-columns: 100%;
+    }
+    .img-mobile{
+      display: block;
+    }
+    .img-desktop {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 799px) {
+    .img-mobile{
+      display: block;
+      margin: auto;
     }
   }
