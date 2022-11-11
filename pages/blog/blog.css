@@ -86,7 +86,7 @@
 
   /* Styles for the hero image */
   .hero {
-    background: url(/images/blog/feature.png);
+    background: url(/images/blog/blog_home/feature.png);
     background-size: cover;
     padding: 4rem 2rem;
     /* grid styles */
