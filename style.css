@@ -262,3 +262,20 @@ ul.home-nav li a:hover {
     display: none;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .about-me-container {
+    height: auto;
+  }
+  .about-me-container img {
+    transform: none;
+  }
+
+  .about-me-container img {
+    transform: none;
+    transition: none;
+  }
+  .about-me-container img:hover {
+    transform: none;
+  }
+}
