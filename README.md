@@ -1,3 +1,23 @@
+General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
+
+# A link (URL) to my published portfolio website
+
+Here is a link to my live portfolio: (https://corina.life/)
+
+# A link to my GitHub repo
+
+Here is a link to my GitHub: (https://github.com/corlou)
+
+GitHub:
+A link to your presentation video
+Description of your portfolio website, including,
+Purpose
+Functionality / features
+Sitemap
+Screenshots
+Target audience
+Tech stack (e.g. html, css, deployment platform, etc)
+
 # Understand Flex-Box
 
 - display: flex = Defines a flex container
