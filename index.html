@@ -5,36 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/hamburger.css" />
+    <link rel="stylesheet" href="/navigation.css" />
     <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
     <title>My Portfolio</title>
   </head>
   <body>
-    <div class="home-container">
-      <ul class="home-navigation">
-        <li>
-          <a href="/pages/about_me.html"><h1>About</h1></a>
-        </li>
-        <li>
-          <li><a href="/pages/blog_home.html"><h1>Blog</h1></a></li>
-        </li>
-        <li>
-          <a href="/pages/education.html"><h1>Education</h1></a>
-        </li>
-        <li>
-          <a href="/pages/projects.html"><h1>Projects</h1></a>
-        </li>
-        <li>
-          <a href="/pages/work.html"><h1>Work</h1></a>
-        </li>
-      </ul>
-      <br />
-      <div class="project-card">
-        <img class="img" src="/images/profile.png" alt="Avatar of me"/>
+    <!-- Mobile Hamburger Menu-->
+    <header class="head-mobile">
+      <div id="menu">
+        <div id="menu-bar" onclick="menuOnClick()">
+          <div id="bar1" class="bar"></div>
+          <div id="bar2" class="bar"></div>
+          <div id="bar3" class="bar"></div>
+        </div>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="/pages/about_me.html">About</a></li>
+            <li><a href="/pages/blog_home.html">Blog</a></li>
+            <li><a href="/pages/education.html">Education</a></li>
+            <li><a href="/pages/projects.html">Projects</a></li>
+          </ul>
+        </nav>
       </div>
-      <br />
-      <h2>Corina Pelichowski</h2>
-      <h2>Combining form and function in creative ways</h2>
-      <br />
+    </header>
+    <!-- /Mobile Hamburger Menu-->
+    <!-- Main Navigation Menu-->
+    <div class="menu-bg" id="menu-bg"></div>
+    <ul class="home-nav">
+      <li><a href="/pages/about_me.html">About</a></li>
+      <li><a href="/pages/blog_home.html">Blog</a></li>
+      <li><a href="/pages/education.html">Education</a></li>
+      <li><a href="/pages/projects.html">Projects</a></li>
+      <li><a href="/pages/work.html">Work</a></li>
+    </ul>
+    <!-- /Main Navigation Menu-->
+
+    <div class="project-card-container">
+      <div class="project-card">
+        <img
+          class="img-profile"
+          src="/images/profile_2.png"
+          alt="Avatar of me"
+        />
+      </div>
+      <div class="project-card">
+        <h2>Corina Pelichowski</h2>
+      </div>
+      <div class="project-card">
+        <h2>Combining form and function in creative ways</h2>
+      </div>
     </div>
 
     <footer>
@@ -87,7 +107,8 @@
         </a>
         <!--/LinkedIn-->
       </div>
-      <div class="copy-right">&copy; Corina Pelichowski 2022</div>
+      <div class="copyright">&copy; Corina Pelichowski 2022</div>
     </footer>
   </body>
+  <script type="text/javascript" src="/hamburger.js"></script>
 </html>
