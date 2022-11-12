@@ -1,12 +1,10 @@
-General project documentation is to be compiled as a single markdown file named README.md. This file should contain,
-
 # A link (URL) to my published portfolio website
 
-Here is a link to my live portfolio: (https://corina.life/)
+Here is a link to [my live portfolio](https://corina.life/)
 
 # A link to my GitHub repo
 
-Here is a link to my GitHub: (https://github.com/corlou)
+Here is a link to [my GitHub](https://github.com/corlou)
 
 # Presentation Video
 
@@ -14,7 +12,7 @@ Here is a link to my GitHub: (https://github.com/corlou)
 
 ### Description:
 
-For myy portfolio website, I started with a hero-pattern. The leaf background was simple, clean, and elegant which lead me to choosing a dark green for the main colour. I then picked orange for the tertiary colour because while red is opposite green on the colour wheel; it felt to "Christmassy". Finally, I picked a warm white as the secondary colour as it's easier on the eyes.
+For my portfolio website, I started with a hero-pattern. The leaf background was simple, clean, and elegant which lead me to choosing a dark green for the main colour. I then picked orange for the tertiary colour because while red is opposite green on the colour wheel; it felt to "Christmassy". Finally, I picked a warm white as the secondary colour as it's easier on the eyes.
 
 ### Purpose:
 
@@ -31,9 +29,18 @@ The top navigation menu and the hamburger menu for mobile were a little tricky b
 ### Sitemap
 
 All pages lead to each other but this stiemap shows the parent page and it's children and grandchildren.
-![Sitemap that shows connections between pages](/README/sitemap.png "Sitemap")
+![Sitemap that shows connections between pages](/README/sitemap.png)
 
 ### Screenshots
+
+Some screenshots of Desktop and Mobile on my live site:
+![homepage](/home.png)
+![blog homepage](/screenshots/blog_home.png)
+![blog post](/README/screenshots/blog_post.png)
+![projects page](/README/screenshots/projects.png)
+![education page with hamburger](/README/screenshots/education_hambuger.png)
+![homepage on mobile](/README/screenshots/home_mobile.png)
+![projects page on mobile](/README/screenshots/projects_mobile.png)
 
 ### Target Audience
 
@@ -41,11 +48,11 @@ My target audience is potential employers. I want to showcase my skills in actio
 
 ### Tech Stack
 
-HTML
-CSS
-JavaScript
-Live Server - to run locally with live reloading upon save
-Netlify
+- HTML
+- CSS
+- JavaScript
+- Live Server - to run locally with live reloading upon save
+- Netlify
 
 ## Other useful Notes and thoughts:
 
