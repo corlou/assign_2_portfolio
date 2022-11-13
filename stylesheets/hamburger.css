@@ -1,9 +1,11 @@
-#menu {
-  z-index: 2;
+/* Start: Make sure Hamburger menu is not displayed on desktop*/
+.head-mobile {
   display: none;
 }
+/*END*/
 
-.head-mobile {
+#menu {
+  z-index: 2;
   display: none;
 }
 
