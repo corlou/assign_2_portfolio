@@ -12,11 +12,11 @@ Here is a link to [my GitHub](https://github.com/corlou)
 
 ### Description:
 
-For my portfolio website, I started with a hero-pattern. The leaf background was simple, clean, and elegant which lead me to choosing a dark green for the main colour. I then picked orange for the tertiary colour because while red is opposite green on the colour wheel; it felt to "Christmassy". Finally, I picked a warm white as the secondary colour as it's easier on the eyes.
+For my portfolio website, I started with a hero-pattern. The leaf background was simple, clean, and elegant which lead me to choosing a dark green for the main colour. I then picked orange for the tertiary colour because while red is opposite green on the colour wheel; it felt too "Christmassy". Finally, I picked a warm white as the secondary colour as it's easier on the eyes.
 
 ### Purpose:
 
-The purpose of my website is to showcase my abilities as a software developer. Rather than just hand out a CV with my skills listed, I can also demonstrate them in practise. I was also able to use my knowledge base while also picking up a few new things along the way.
+The purpose of my website is to showcase my abilities as a software developer. Rather than just hand out a CV with my skills listed, I can also demonstrate them in practice. I was also able to use my knowledge base while also picking up a few new things along the way.
 
 ### Functionality/Features:
 
@@ -28,19 +28,19 @@ The top navigation menu and the hamburger menu for mobile were a little tricky b
 
 ### Sitemap
 
-All pages lead to each other but this stiemap shows the parent page and it's children and grandchildren.
-![Sitemap that shows connections between pages](/README/sitemap.png)
+All pages lead to each other but this sitemap shows the parent page and it's children and grandchildren.
+![Sitemap that shows connections between pages](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/sitemap.png)
 
 ### Screenshots
 
 Some screenshots of Desktop and Mobile on my live site:
-![homepage](/home.png)
-![blog homepage](/screenshots/blog_home.png)
-![blog post](/README/screenshots/blog_post.png)
-![projects page](/README/screenshots/projects.png)
-![education page with hamburger](/README/screenshots/education_hambuger.png)
-![homepage on mobile](/README/screenshots/home_mobile.png)
-![projects page on mobile](/README/screenshots/projects_mobile.png)
+![homepage](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/home.png)
+![blog homepage](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/blog_home.png)
+![blog post](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/blog_post.png)
+![projects page](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/projects.png)
+![education page with hamburger](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/education_hambuger.png)
+![homepage on mobile](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/home_mobile.png)
+![projects page on mobile](https://raw.githubusercontent.com/corlou/assign_2_portfolio/master/screenshots/projects_mobile.png)
 
 ### Target Audience
 
@@ -51,12 +51,12 @@ My target audience is potential employers. I want to showcase my skills in actio
 - HTML
 - CSS
 - JavaScript
-- Live Server - to run locally with live reloading upon save
 - Netlify
+- Live Server - to run locally with live reloading upon save
 
 ## Other useful Notes and thoughts:
 
-### Understand Flex-Box
+### Understanding Flex-Box
 
 - display: flex = Defines a flex container
 - flex-direction = which way I want the content to go (left, right, up, down)
