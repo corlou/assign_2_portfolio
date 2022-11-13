@@ -8,6 +8,8 @@ Here is a link to [my GitHub](https://github.com/corlou)
 
 # Presentation Video
 
+Here is a link to my [presentation and slide deck](https://vimeo.com/770360786/7a11c78975)
+
 # Description of my Portfolio Website
 
 ### Description:
