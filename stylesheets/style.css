@@ -173,7 +173,7 @@ ul {
 }
 
 .project-button {
-  border-color: #1e441f;
+  border: 2px solid #1e441f;
   color: #1e441f;
   background-color: #e9ece9;
   padding: 6px 30px;
@@ -184,7 +184,9 @@ ul {
   margin-bottom: 1em;
   border-radius: 10px;
 }
-.project-button:hover {
+
+.project-button:hover,
+.project-button > a:hover {
   background-color: #fb1;
   color: #1e441f;
 }
